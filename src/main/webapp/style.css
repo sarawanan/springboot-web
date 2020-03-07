@@ -1,7 +1,25 @@
-table tr td {
-    border: double;
+table {
+    font-family: Calibri, sans-serif;
+    font-weight: normal;
 }
 
-table tr td:nth-child(1) {
+td, th {
+    border: 1px solid #999;
+    padding: 0.5rem;
+}
+
+td:nth-child(1) {
     background-color: gray;
+}
+
+h1 {
+    font-family: Calibri, sans-serif;
+    font-weight: bold;
+    font-stretch: expanded;
+}
+
+h3 {
+    font-family: Calibri, serif;
+    font-weight: lighter;
+    font-style: oblique;
 }
